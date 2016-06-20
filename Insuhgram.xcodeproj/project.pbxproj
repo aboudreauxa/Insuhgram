@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0CFCAD1D1898120099A562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCAC1D1898120099A562 /* AppDelegate.swift */; };
+		8C0CFCAF1D1898120099A562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCAE1D1898120099A562 /* ViewController.swift */; };
+		8C0CFCB21D1898120099A562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CFCB01D1898120099A562 /* Main.storyboard */; };
+		8C0CFCB41D1898120099A562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CFCB31D1898120099A562 /* Assets.xcassets */; };
+		8C0CFCB71D1898120099A562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CFCB51D1898120099A562 /* LaunchScreen.storyboard */; };
+		8C0CFCC21D1898120099A562 /* InsuhgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCC11D1898120099A562 /* InsuhgramTests.swift */; };
+		8C0CFCCD1D1898120099A562 /* InsuhgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCCC1D1898120099A562 /* InsuhgramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C0CFCBE1D1898120099A562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0CFCA11D1898120099A562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0CFCA81D1898120099A562;
+			remoteInfo = Insuhgram;
+		};
+		8C0CFCC91D1898120099A562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0CFCA11D1898120099A562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0CFCA81D1898120099A562;
+			remoteInfo = Insuhgram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C0CFCA91D1898120099A562 /* Insuhgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insuhgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CFCAC1D1898120099A562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C0CFCAE1D1898120099A562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C0CFCB11D1898120099A562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C0CFCB31D1898120099A562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0CFCB61D1898120099A562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C0CFCB81D1898120099A562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0CFCBD1D1898120099A562 /* InsuhgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuhgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CFCC11D1898120099A562 /* InsuhgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuhgramTests.swift; sourceTree = "<group>"; };
+		8C0CFCC31D1898120099A562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0CFCC81D1898120099A562 /* InsuhgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuhgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CFCCC1D1898120099A562 /* InsuhgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuhgramUITests.swift; sourceTree = "<group>"; };
+		8C0CFCCE1D1898120099A562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0CFCA61D1898120099A562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CFCBA1D1898120099A562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CFCC51D1898120099A562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0CFCA01D1898120099A562 = {
+			isa = PBXGroup;
+			children = (
+				8C0CFCAB1D1898120099A562 /* Insuhgram */,
+				8C0CFCC01D1898120099A562 /* InsuhgramTests */,
+				8C0CFCCB1D1898120099A562 /* InsuhgramUITests */,
+				8C0CFCAA1D1898120099A562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0CFCAA1D1898120099A562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CFCA91D1898120099A562 /* Insuhgram.app */,
+				8C0CFCBD1D1898120099A562 /* InsuhgramTests.xctest */,
+				8C0CFCC81D1898120099A562 /* InsuhgramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0CFCAB1D1898120099A562 /* Insuhgram */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CFCAC1D1898120099A562 /* AppDelegate.swift */,
+				8C0CFCAE1D1898120099A562 /* ViewController.swift */,
+				8C0CFCB01D1898120099A562 /* Main.storyboard */,
+				8C0CFCB31D1898120099A562 /* Assets.xcassets */,
+				8C0CFCB51D1898120099A562 /* LaunchScreen.storyboard */,
+				8C0CFCB81D1898120099A562 /* Info.plist */,
+			);
+			path = Insuhgram;
+			sourceTree = "<group>";
+		};
+		8C0CFCC01D1898120099A562 /* InsuhgramTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CFCC11D1898120099A562 /* InsuhgramTests.swift */,
+				8C0CFCC31D1898120099A562 /* Info.plist */,
+			);
+			path = InsuhgramTests;
+			sourceTree = "<group>";
+		};
+		8C0CFCCB1D1898120099A562 /* InsuhgramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CFCCC1D1898120099A562 /* InsuhgramUITests.swift */,
+				8C0CFCCE1D1898120099A562 /* Info.plist */,
+			);
+			path = InsuhgramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0CFCA81D1898120099A562 /* Insuhgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CFCD11D1898120099A562 /* Build configuration list for PBXNativeTarget "Insuhgram" */;
+			buildPhases = (
+				8C0CFCA51D1898120099A562 /* Sources */,
+				8C0CFCA61D1898120099A562 /* Frameworks */,
+				8C0CFCA71D1898120099A562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insuhgram;
+			productName = Insuhgram;
+			productReference = 8C0CFCA91D1898120099A562 /* Insuhgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C0CFCBC1D1898120099A562 /* InsuhgramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CFCD41D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramTests" */;
+			buildPhases = (
+				8C0CFCB91D1898120099A562 /* Sources */,
+				8C0CFCBA1D1898120099A562 /* Frameworks */,
+				8C0CFCBB1D1898120099A562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0CFCBF1D1898120099A562 /* PBXTargetDependency */,
+			);
+			name = InsuhgramTests;
+			productName = InsuhgramTests;
+			productReference = 8C0CFCBD1D1898120099A562 /* InsuhgramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C0CFCC71D1898120099A562 /* InsuhgramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CFCD71D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramUITests" */;
+			buildPhases = (
+				8C0CFCC41D1898120099A562 /* Sources */,
+				8C0CFCC51D1898120099A562 /* Frameworks */,
+				8C0CFCC61D1898120099A562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0CFCCA1D1898120099A562 /* PBXTargetDependency */,
+			);
+			name = InsuhgramUITests;
+			productName = InsuhgramUITests;
+			productReference = 8C0CFCC81D1898120099A562 /* InsuhgramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0CFCA11D1898120099A562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexina Boudreaux-Allen";
+				TargetAttributes = {
+					8C0CFCA81D1898120099A562 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8C0CFCBC1D1898120099A562 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8C0CFCA81D1898120099A562;
+					};
+					8C0CFCC71D1898120099A562 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8C0CFCA81D1898120099A562;
+					};
+				};
+			};
+			buildConfigurationList = 8C0CFCA41D1898120099A562 /* Build configuration list for PBXProject "Insuhgram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0CFCA01D1898120099A562;
+			productRefGroup = 8C0CFCAA1D1898120099A562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0CFCA81D1898120099A562 /* Insuhgram */,
+				8C0CFCBC1D1898120099A562 /* InsuhgramTests */,
+				8C0CFCC71D1898120099A562 /* InsuhgramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C0CFCA71D1898120099A562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CFCB71D1898120099A562 /* LaunchScreen.storyboard in Resources */,
+				8C0CFCB41D1898120099A562 /* Assets.xcassets in Resources */,
+				8C0CFCB21D1898120099A562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CFCBB1D1898120099A562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CFCC61D1898120099A562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0CFCA51D1898120099A562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CFCAF1D1898120099A562 /* ViewController.swift in Sources */,
+				8C0CFCAD1D1898120099A562 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CFCB91D1898120099A562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CFCC21D1898120099A562 /* InsuhgramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0CFCC41D1898120099A562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CFCCD1D1898120099A562 /* InsuhgramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C0CFCBF1D1898120099A562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0CFCA81D1898120099A562 /* Insuhgram */;
+			targetProxy = 8C0CFCBE1D1898120099A562 /* PBXContainerItemProxy */;
+		};
+		8C0CFCCA1D1898120099A562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0CFCA81D1898120099A562 /* Insuhgram */;
+			targetProxy = 8C0CFCC91D1898120099A562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C0CFCB01D1898120099A562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0CFCB11D1898120099A562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C0CFCB51D1898120099A562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0CFCB61D1898120099A562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C0CFCCF1D1898120099A562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0CFCD01D1898120099A562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0CFCD21D1898120099A562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Insuhgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Insuhgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C0CFCD31D1898120099A562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Insuhgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Insuhgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C0CFCD51D1898120099A562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsuhgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InsuhgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insuhgram.app/Insuhgram";
+			};
+			name = Debug;
+		};
+		8C0CFCD61D1898120099A562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsuhgramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InsuhgramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insuhgram.app/Insuhgram";
+			};
+			name = Release;
+		};
+		8C0CFCD81D1898120099A562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsuhgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InsuhgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Insuhgram;
+			};
+			name = Debug;
+		};
+		8C0CFCD91D1898120099A562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsuhgramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.InsuhgramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Insuhgram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0CFCA41D1898120099A562 /* Build configuration list for PBXProject "Insuhgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CFCCF1D1898120099A562 /* Debug */,
+				8C0CFCD01D1898120099A562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0CFCD11D1898120099A562 /* Build configuration list for PBXNativeTarget "Insuhgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CFCD21D1898120099A562 /* Debug */,
+				8C0CFCD31D1898120099A562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C0CFCD41D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CFCD51D1898120099A562 /* Debug */,
+				8C0CFCD61D1898120099A562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C0CFCD71D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CFCD81D1898120099A562 /* Debug */,
+				8C0CFCD91D1898120099A562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0CFCA11D1898120099A562 /* Project object */;
+}
