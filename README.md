@@ -63,6 +63,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 ## Notes
 
 Licecap gif was too big for Imgur so I uploaded the gif to giphy.com
+The URL for the gif is http://giphy.com/gifs/3oEjHZGXfUQg0Rvypi
 
 ## License
 
