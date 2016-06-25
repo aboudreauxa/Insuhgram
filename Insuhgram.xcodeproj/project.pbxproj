@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402476B2C0D57BD7B2782B89 /* Pods_InsuhgramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6880CD12BD7A4C6ECB32730 /* Pods_InsuhgramTests.framework */; };
+		474171C860DD6BB810114D32 /* Pods_Insuhgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17AA89103B94103EE3C80B3 /* Pods_Insuhgram.framework */; };
 		8C0CFCAD1D1898120099A562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCAC1D1898120099A562 /* AppDelegate.swift */; };
-		8C0CFCAF1D1898120099A562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCAE1D1898120099A562 /* ViewController.swift */; };
 		8C0CFCB21D1898120099A562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CFCB01D1898120099A562 /* Main.storyboard */; };
 		8C0CFCB41D1898120099A562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CFCB31D1898120099A562 /* Assets.xcassets */; };
 		8C0CFCB71D1898120099A562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0CFCB51D1898120099A562 /* LaunchScreen.storyboard */; };
 		8C0CFCC21D1898120099A562 /* InsuhgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCC11D1898120099A562 /* InsuhgramTests.swift */; };
 		8C0CFCCD1D1898120099A562 /* InsuhgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCCC1D1898120099A562 /* InsuhgramUITests.swift */; };
+		8C0CFCDB1D18A19D0099A562 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCDA1D18A19D0099A562 /* LoginViewController.swift */; };
+		8C0CFCDE1D190EFB0099A562 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CFCDD1D190EFB0099A562 /* MainViewController.swift */; };
+		8C7089331D19E6C0004D70E9 /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7089321D19E6C0004D70E9 /* UploadPhotoViewController.swift */; };
+		8C7089391D1A19A8004D70E9 /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7089381D1A19A8004D70E9 /* InstaTableViewCell.swift */; };
+		8C70893B1D1B37C9004D70E9 /* postViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70893A1D1B37C9004D70E9 /* postViewController.swift */; };
+		8C70893D1D1B586C004D70E9 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70893C1D1B586C004D70E9 /* ZoomViewController.swift */; };
+		8C70893F1D1BC538004D70E9 /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C70893E1D1BC538004D70E9 /* userProfileViewController.swift */; };
+		8C7089411D1C7E12004D70E9 /* InstaCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7089401D1C7E12004D70E9 /* InstaCollectionCell.swift */; };
+		8CD7C9341D1D1DC70089B5A9 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7C9331D1D1DC70089B5A9 /* InfiniteScrollActivityView.swift */; };
+		8CD7C9361D1E032E0089B5A9 /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7C9351D1E032E0089B5A9 /* navBar.swift */; };
+		B148644ED3B63F967C9A18E3 /* Pods_InsuhgramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88294CE56F304BC01F3F90FF /* Pods_InsuhgramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223566DA85772F1E1094C0ED /* Pods-Insuhgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insuhgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insuhgram/Pods-Insuhgram.release.xcconfig"; sourceTree = "<group>"; };
+		4EF54599FD31B987B428B9F7 /* Pods-InsuhgramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuhgramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsuhgramTests/Pods-InsuhgramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5996E6A030CAC7BBEE510911 /* Pods-Insuhgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insuhgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insuhgram/Pods-Insuhgram.debug.xcconfig"; sourceTree = "<group>"; };
+		88294CE56F304BC01F3F90FF /* Pods_InsuhgramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuhgramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0CFCA91D1898120099A562 /* Insuhgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insuhgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0CFCAC1D1898120099A562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C0CFCAE1D1898120099A562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C0CFCB11D1898120099A562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C0CFCB31D1898120099A562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C0CFCB61D1898120099A562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		8C0CFCC81D1898120099A562 /* InsuhgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuhgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0CFCCC1D1898120099A562 /* InsuhgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuhgramUITests.swift; sourceTree = "<group>"; };
 		8C0CFCCE1D1898120099A562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0CFCDA1D18A19D0099A562 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8C0CFCDD1D190EFB0099A562 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8C7089321D19E6C0004D70E9 /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
+		8C7089381D1A19A8004D70E9 /* InstaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
+		8C70893A1D1B37C9004D70E9 /* postViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postViewController.swift; sourceTree = "<group>"; };
+		8C70893C1D1B586C004D70E9 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		8C70893E1D1BC538004D70E9 /* userProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		8C7089401D1C7E12004D70E9 /* InstaCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaCollectionCell.swift; sourceTree = "<group>"; };
+		8CD7C9331D1D1DC70089B5A9 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
+		8CD7C9351D1E032E0089B5A9 /* navBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
+		AB5A3B0222A25FC2344FA65F /* Pods-InsuhgramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuhgramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsuhgramUITests/Pods-InsuhgramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B17AA89103B94103EE3C80B3 /* Pods_Insuhgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insuhgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6880CD12BD7A4C6ECB32730 /* Pods_InsuhgramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuhgramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAE8F8C963E93A13E1B041B /* Pods-InsuhgramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuhgramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsuhgramTests/Pods-InsuhgramTests.release.xcconfig"; sourceTree = "<group>"; };
+		E137437DA408FFBBDE1F4C59 /* Pods-InsuhgramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuhgramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsuhgramUITests/Pods-InsuhgramUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474171C860DD6BB810114D32 /* Pods_Insuhgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402476B2C0D57BD7B2782B89 /* Pods_InsuhgramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B148644ED3B63F967C9A18E3 /* Pods_InsuhgramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28320E4E073714EEAFC6E9E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17AA89103B94103EE3C80B3 /* Pods_Insuhgram.framework */,
+				B6880CD12BD7A4C6ECB32730 /* Pods_InsuhgramTests.framework */,
+				88294CE56F304BC01F3F90FF /* Pods_InsuhgramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8C0CFCA01D1898120099A562 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,8 @@
 				8C0CFCC01D1898120099A562 /* InsuhgramTests */,
 				8C0CFCCB1D1898120099A562 /* InsuhgramUITests */,
 				8C0CFCAA1D1898120099A562 /* Products */,
+				B64BFE52580EBBE1D05B2921 /* Pods */,
+				28320E4E073714EEAFC6E9E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +142,16 @@
 		8C0CFCAB1D1898120099A562 /* Insuhgram */ = {
 			isa = PBXGroup;
 			children = (
+				8CD7C9351D1E032E0089B5A9 /* navBar.swift */,
+				8CD7C9331D1D1DC70089B5A9 /* InfiniteScrollActivityView.swift */,
+				8C0CFCDC1D18A1A30099A562 /* View Controllers */,
 				8C0CFCAC1D1898120099A562 /* AppDelegate.swift */,
-				8C0CFCAE1D1898120099A562 /* ViewController.swift */,
 				8C0CFCB01D1898120099A562 /* Main.storyboard */,
+				8C7089401D1C7E12004D70E9 /* InstaCollectionCell.swift */,
 				8C0CFCB31D1898120099A562 /* Assets.xcassets */,
 				8C0CFCB51D1898120099A562 /* LaunchScreen.storyboard */,
 				8C0CFCB81D1898120099A562 /* Info.plist */,
+				8C7089381D1A19A8004D70E9 /* InstaTableViewCell.swift */,
 			);
 			path = Insuhgram;
 			sourceTree = "<group>";
@@ -125,6 +174,32 @@
 			path = InsuhgramUITests;
 			sourceTree = "<group>";
 		};
+		8C0CFCDC1D18A1A30099A562 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C70893E1D1BC538004D70E9 /* userProfileViewController.swift */,
+				8C70893C1D1B586C004D70E9 /* ZoomViewController.swift */,
+				8C70893A1D1B37C9004D70E9 /* postViewController.swift */,
+				8C7089321D19E6C0004D70E9 /* UploadPhotoViewController.swift */,
+				8C0CFCDD1D190EFB0099A562 /* MainViewController.swift */,
+				8C0CFCDA1D18A19D0099A562 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B64BFE52580EBBE1D05B2921 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5996E6A030CAC7BBEE510911 /* Pods-Insuhgram.debug.xcconfig */,
+				223566DA85772F1E1094C0ED /* Pods-Insuhgram.release.xcconfig */,
+				4EF54599FD31B987B428B9F7 /* Pods-InsuhgramTests.debug.xcconfig */,
+				DAAE8F8C963E93A13E1B041B /* Pods-InsuhgramTests.release.xcconfig */,
+				AB5A3B0222A25FC2344FA65F /* Pods-InsuhgramUITests.debug.xcconfig */,
+				E137437DA408FFBBDE1F4C59 /* Pods-InsuhgramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C0CFCD11D1898120099A562 /* Build configuration list for PBXNativeTarget "Insuhgram" */;
 			buildPhases = (
+				BE83B5A9559B2EFE3A27990B /* [CP] Check Pods Manifest.lock */,
 				8C0CFCA51D1898120099A562 /* Sources */,
 				8C0CFCA61D1898120099A562 /* Frameworks */,
 				8C0CFCA71D1898120099A562 /* Resources */,
+				E874B72C2243F373923D8487 /* [CP] Embed Pods Frameworks */,
+				D0A25F8FCB44D59A23BE5A0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C0CFCD41D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramTests" */;
 			buildPhases = (
+				B4466EDE24E0E17D8123C650 /* [CP] Check Pods Manifest.lock */,
 				8C0CFCB91D1898120099A562 /* Sources */,
 				8C0CFCBA1D1898120099A562 /* Frameworks */,
 				8C0CFCBB1D1898120099A562 /* Resources */,
+				155C5E0813E200A83919DFB5 /* [CP] Embed Pods Frameworks */,
+				B3A23CBDD2D394B7A199909A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C0CFCD71D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramUITests" */;
 			buildPhases = (
+				F4ED1EC68A5F018D6F5E9090 /* [CP] Check Pods Manifest.lock */,
 				8C0CFCC41D1898120099A562 /* Sources */,
 				8C0CFCC51D1898120099A562 /* Frameworks */,
 				8C0CFCC61D1898120099A562 /* Resources */,
+				BAF1E95FE76E3B1DE91217B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +334,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		155C5E0813E200A83919DFB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuhgramTests/Pods-InsuhgramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A23CBDD2D394B7A199909A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuhgramTests/Pods-InsuhgramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4466EDE24E0E17D8123C650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF1E95FE76E3B1DE91217B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuhgramUITests/Pods-InsuhgramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE83B5A9559B2EFE3A27990B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A25F8FCB44D59A23BE5A0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insuhgram/Pods-Insuhgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E874B72C2243F373923D8487 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insuhgram/Pods-Insuhgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4ED1EC68A5F018D6F5E9090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C0CFCA51D1898120099A562 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C0CFCAF1D1898120099A562 /* ViewController.swift in Sources */,
+				8CD7C9341D1D1DC70089B5A9 /* InfiniteScrollActivityView.swift in Sources */,
+				8C7089411D1C7E12004D70E9 /* InstaCollectionCell.swift in Sources */,
+				8C7089331D19E6C0004D70E9 /* UploadPhotoViewController.swift in Sources */,
+				8C70893F1D1BC538004D70E9 /* userProfileViewController.swift in Sources */,
+				8C0CFCDB1D18A19D0099A562 /* LoginViewController.swift in Sources */,
+				8C70893D1D1B586C004D70E9 /* ZoomViewController.swift in Sources */,
+				8CD7C9361D1E032E0089B5A9 /* navBar.swift in Sources */,
+				8C70893B1D1B37C9004D70E9 /* postViewController.swift in Sources */,
 				8C0CFCAD1D1898120099A562 /* AppDelegate.swift in Sources */,
+				8C7089391D1A19A8004D70E9 /* InstaTableViewCell.swift in Sources */,
+				8C0CFCDE1D190EFB0099A562 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +614,7 @@
 		};
 		8C0CFCD21D1898120099A562 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5996E6A030CAC7BBEE510911 /* Pods-Insuhgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Insuhgram/Info.plist;
@@ -410,6 +626,7 @@
 		};
 		8C0CFCD31D1898120099A562 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223566DA85772F1E1094C0ED /* Pods-Insuhgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Insuhgram/Info.plist;
@@ -421,6 +638,7 @@
 		};
 		8C0CFCD51D1898120099A562 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF54599FD31B987B428B9F7 /* Pods-InsuhgramTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = InsuhgramTests/Info.plist;
@@ -433,6 +651,7 @@
 		};
 		8C0CFCD61D1898120099A562 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAE8F8C963E93A13E1B041B /* Pods-InsuhgramTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = InsuhgramTests/Info.plist;
@@ -445,6 +664,7 @@
 		};
 		8C0CFCD81D1898120099A562 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5A3B0222A25FC2344FA65F /* Pods-InsuhgramUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = InsuhgramUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +676,7 @@
 		};
 		8C0CFCD91D1898120099A562 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E137437DA408FFBBDE1F4C59 /* Pods-InsuhgramUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = InsuhgramUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +705,7 @@
 				8C0CFCD31D1898120099A562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C0CFCD41D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +714,7 @@
 				8C0CFCD61D1898120099A562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C0CFCD71D1898120099A562 /* Build configuration list for PBXNativeTarget "InsuhgramUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +723,7 @@
 				8C0CFCD91D1898120099A562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

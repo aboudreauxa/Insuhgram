@@ -1,0 +1,6 @@
+framework module Pods_InsuhgramUITests {
+  umbrella header "Pods-InsuhgramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
